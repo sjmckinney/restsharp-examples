@@ -55,7 +55,7 @@ namespace RestSharpExamples.Tests
             Assert.That(ukPostcodeResponse.PostalCodes[0].PostalCode, Is.EqualTo("WA16 0AA"));
             Assert.That(ukPostcodeResponse.PostalCodes[1].PostalCode, Is.EqualTo("WA16 0AB"));
 
-            Assert.That(ukPostcodeResponse.PostalCodes[1].Latitude, Is.EqualTo("53.35743203197101"));
+            Assert.That(ukPostcodeResponse.PostalCodes[1].Lat, Is.EqualTo(53.303315033592931d));
 
         }
     }
